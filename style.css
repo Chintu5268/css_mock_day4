@@ -109,15 +109,3 @@ a:hover{
 
 }
 
-#link1:link{
-  background-color: rgb(229, 255, 0);
-}
-#link2:visited{
-color: rgb(0, 255, 98);
-}
-#link3:hover{
-  background-color: aqua;
-}
-#link4:active{
-  background-color: rgb(255, 0, 0);
-}
