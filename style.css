@@ -1,14 +1,19 @@
 .card{
+  width: 100%;
   background-image: url('./img/img1.jpg');
-  width: 500px;
-  height: 500px;
+  background-size: cover;
+  height: 1000px;
   background-repeat: no-repeat;
   
 }
 p{text-align: center;
 color: white;}
-button{
-  margin-left: 220px;
+#mybtn{
+  margin-left: 620px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: yellowgreen;
 }
 .nav{
   display: flex;
@@ -23,20 +28,14 @@ button{
 ul{
   list-style-type: none;
 }
-a{text-decoration: none;
+/* a{text-decoration: none;
   padding: 20px;
 font-size: 20px;
 background-color: darkred;
 color: azure;}
 a:hover{
   background-color: aqua;
-}
-
-
-
-
-
-
+} */
 
 
 .main{
@@ -57,8 +56,6 @@ a:hover{
   }
 }
 
-  
-
 .me{
   display: flex;
   justify-content: center;
@@ -67,7 +64,8 @@ a:hover{
   background-color: aqua;
   width: 100px;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 5px;
+
 }
 @media only screen and (max-width:768px) and (min-width:480px){
   .me{
@@ -109,4 +107,17 @@ a:hover{
  flex-shrink: 100px;
 
 
+}
+
+#link1:link{
+  background-color: rgb(229, 255, 0);
+}
+#link2:visited{
+color: rgb(0, 255, 98);
+}
+#link3:hover{
+  background-color: aqua;
+}
+#link4:active{
+  background-color: rgb(255, 0, 0);
 }
